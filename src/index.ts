@@ -17,12 +17,6 @@ const gateway = new braintree.BraintreeGateway({
   privateKey: process.env.BRAINTREE_PRIVATE_KEY,
 });
 
-export const callableHello = onCall(async (request) => {
-  const {name} = request.data;
-  const uid = request.auth?.uid;
-  return {text: "Hello from Firebase "+ name + " with uid:"+ uid +"!"};
-});
-
 export const createTransactionPls = onCall(async (request) => {
   const {nonce, amount, uid} = request.data;
   const transaction = await gateway.transaction.sale({
