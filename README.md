@@ -1,6 +1,6 @@
 # Midas Retool Project
 
- A frontfacing Retool project backed by GCP and Firebase structure, designed to let users add account balances with purchases through Braintree API and buy items with said balance.
+ A frontfacing Retool project backed by GCP and Firebase structure, designed to let users add account balances with purchases through Braintree API and buy items with said balance. Application can currently only be accessed through Retool sharing.
 
 ## Database Model
 
