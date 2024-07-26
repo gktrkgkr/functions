@@ -8,4 +8,4 @@
 
 ## System Architecture
 
-
+![midas_system_arch](https://github.com/user-attachments/assets/f1a5e363-bdfa-40a7-807c-be2b71bbb52a)
